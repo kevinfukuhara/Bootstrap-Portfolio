@@ -1,0 +1,83 @@
+/* 
+	----------- Tag Selectors here -----------
+*/
+a {
+	color: black;
+}
+
+ul {
+	align-items: center; /*centers the bars '|' in the nave bar*/
+}
+
+body{
+	margin: 0px;
+	background-image: url("../images/purty_wood_@2X.png");
+}
+
+h1 {
+	display:inline-block;
+	margin: 0px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* 
+	----------- Class Selectors here -----------
+*/
+.logoH1 {
+	color: white;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 4px 10px;
+	font-size: 25px;
+	font-weight: 600; 
+}
+
+.headerNavBox {
+	background-color: white;
+	padding: 0px;
+	border-bottom: 2px solid grey;
+}
+
+.pl-sm-6 {
+	padding-left: 5rem !important;
+}
+
+.pr-sm-6 {
+	padding-right: 5rem !important;
+}
+
+
+/* 
+	----------- ID Selectors here -----------
+*/
+#navFlexDirRow {
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+
+}
+
+#navLinkContain {
+	align-items: center;
+	text-align: center;
+	padding:0px;
+}
+
+#listContainExpand {
+	align-items: center;
+	text-align: center;
+	width:100%;
+	display:flex;
+	justify-content: center;
+}
+
+#logoContain {
+	padding:9px 0px;
+	text-align: center;
+	background-color: #4aaaa5;
+	display: inline-block;
+}
+
+#navContainer {
+	/*margin:0px;*/
+}
