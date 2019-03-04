@@ -28,7 +28,7 @@ h1 {
 	text-align: center;
 	background-color: #4aaaa5;
 	padding: 4px 10px;
-	font-size: 25px;
+	font-size: 26px;
 	font-weight: 600; 
 }
 
@@ -38,14 +38,104 @@ h1 {
 	border-bottom: 2px solid grey;
 }
 
-.pl-sm-6 {
-	padding-left: 5rem !important;
+/* Change color on hover */
+
+.nav-item {
+    padding: 8.5px 15px;
 }
 
-.pr-sm-6 {
-	padding-right: 5rem !important;
+.nav-item:hover {
+    background-color: #4aaaa5;
+    color: black;
+    text-decoration: none;
 }
 
+.nav-item a:hover {
+    text-decoration:none;
+    color: white;
+}
+
+.bodyMargin {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    background-color: white;
+}
+
+.contentTitle {
+    padding-top: 20px;
+    color: #4aaaa5;
+    font-size: 26px;
+	font-weight: 600;
+}
+
+.portfoIcon{
+    height: 200px;
+    width: 45%;
+    display: inline-block;
+    margin: 0px 25px 20px 0px; 
+    padding: 0px 0px 0px 0px;
+    background-size:cover;
+    position:relative;
+}
+
+.portfoName {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width:100%;
+    position: absolute; 
+    top: 125px;
+}
+
+.portfoName a {
+    color: white;
+    text-decoration: none;
+}
+
+.iconLink {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.formSettings {
+    padding: 0px 20px 25px 20px;
+    width:100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.stretchBar {
+	/* width: 99.5% */
+	margin-top: 5px;
+	width: 100%;
+	height: 25px;
+	padding: 0px 5px;
+}
+
+.stretchBarBodyEmail {
+	/* width: 99.5% */
+	margin-top: 5px;
+	width: 100%;
+	padding: 100px 0px 0px 0px;
+}
+
+.footer {
+    background-color: #777777;
+    color:white;
+    font-size: 11px;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    padding: 15px 0px;    
+}
+
+.footer p {
+    margin: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 
 /* 
 	----------- ID Selectors here -----------
@@ -54,13 +144,13 @@ h1 {
 	flex-direction: row;
 	align-items: center;
 	text-align: center;
-
 }
 
 #navLinkContain {
 	align-items: center;
 	text-align: center;
-	padding:0px;
+    padding:0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #listContainExpand {
@@ -78,6 +168,71 @@ h1 {
 	display: inline-block;
 }
 
-#navContainer {
-	/*margin:0px;*/
+#portNavPad {
+    padding-right: 24px;
+}
+
+#headshot {
+    height: 270px;
+    width: 270px;
+    margin: 0px 16px 16px 0px; 
+    /* display: inline-block; */
+    float: left;
+}
+
+#topbar {
+    margin-bottom: 10px;
+}
+
+#wordGuess {
+    background-image: url("../images/project1.jpg");
+}
+#rpgGame {
+    background-image: url("../images/project2.jpg");
+}
+#triviaGame {
+    background-image: url("../images/project3.jpg");
+}
+#iconWidget {
+    background-image: url("../images/project4.jpg");
+}
+#rockpsGame {
+    background-image: url("../images/project5.jpg");
+}
+
+
+/*
+------------ Media Queries ------------------
+*/
+@media screen and (max-width:768px) {
+    .portfoIcon{
+        width:78%;
+        height: 200px;
+        margin: 0px 11% 20px 11%;
+    
+    }
+
+    .sm-PortfoCenter {
+        display: block;
+    }
+    
+    #navContainer {
+        max-width: 767px;
+        margin:0px; 
+    }
+
+    #headshot {
+        max-width: 767px;
+        max-height: 767px;  
+        width: 100%; 
+        height: auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .bodyMargin {
+        margin-right: 20px;
+        margin-left: 20px;
+        width: auto;
+    }
 }
