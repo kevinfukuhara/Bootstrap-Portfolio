@@ -14,17 +14,22 @@
 </head>
 
 <body>
+    <!-- The container that fits the entire header navbar -->
     <nav class="navbar navbar-expand-lg headerNavBox">
         <div class="container " id="navContainer">
+            <!-- The Logo that contains the blue/teal logo which will stretch to fill the whole screenw hen siwtching to a small viewport -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" id="logoContain">
                 <h1 class="logoH1">Kevin Fukuhara</h1>
             </div>
 
+            <!-- empty box that just helps with spacing out the navbar emelents (logo and nav links)-->
             <div class="col-xl-4 col-lg-3 col-md-2"></div>
 
+            <!--nav link container - this remain in a third spacing until small viewport when they take up the whole screen width - css class listContainExpand squishes the links together-->
             <div class="navbar navbar-default col-xl-4 col-lg-5 col-md-6 col-sm-12" id="navLinkContain">
                 <div class="navbar-inner" id="listContainExpand">
                     <ul class="navbar-nav" id="navFlexDirRow">
+                        <!-- as for the navlinks themselves, these reaim in third spacing from each other at all size view ports -->
                         <li class="nav-item col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
                             <a class="nav-link" href="#">About</span></a>
                         </li> |
@@ -40,13 +45,16 @@
         </div>
     </nav>
 
+    <!-- This container has all the content between the header navbar and footer     -->
     <div class="container bodyMargin">
+        <!-- separated the content title and black bar from the content beneath beacuse FOR consistency across my pages (contact.html and portfolio.html) -->
         <div class="row" id="topbar">
             <div class="col-xl-12">
                 <h1 class="contentTitle">About Me</h1>
                 <hr>
             </div>
         </div>
+        <!-- This row contains the content that differentiates the pages from eachother. -->
         <div class="row">
             <div class="col-xl-12">
                 <img src="assets/images/headshot2.jpg" alt="picture of me" id="headshot">
@@ -76,6 +84,8 @@
         </div>
     </div>
 
+    <!-- Footer from Bootstrap has a classs that allows us to fix it to the bottom of our screen seen below -->
+    <!--this is the entirety of my footer-->
     <div class="footer fixed-bottom">
         <p>Copyright&copy;</p>
     </div>
