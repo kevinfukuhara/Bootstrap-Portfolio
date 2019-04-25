@@ -180,23 +180,29 @@ h1 {
 }
 
 #wordGuess {
-    background-image: url("../images/project1.jpg");
+    background-image: url("../images/word-guess-game-project.PNG");
+    border: 1px solid grey;
 }
 #rpgGame {
-    background-image: url("../images/project2.jpg");
+    background-image: url("../images/pokemon-rpg-game.PNG");
+    border: 1px solid grey;
 }
 #triviaGame {
-    background-image: url("../images/project3.jpg");
+    background-image: url("../images/trivia-game-project.PNG");
+    border: 1px solid grey;
 }
 #iconWidget {
-    background-image: url("../images/project4.jpg");
+    background-image: url("../images/project2.jpg");
+    border: 1px solid grey;
 }
 #rockpsGame {
-    background-image: url("../images/project5.jpg");
+    background-image: url("../images/train-schedule-project.PNG");
+    border: 1px solid grey;
 }
 
 #bruncher-project {
     background-image: url("../images/bruncher-project.PNG");
+    border: 1px solid grey;
 }
 
 
