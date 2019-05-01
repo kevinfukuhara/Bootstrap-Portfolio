@@ -205,6 +205,11 @@ h1 {
     border: 1px solid grey;
 }
 
+#liri-project {
+    background-image: url("../images/liri-node-image.PNG");
+    border: 1px solid grey;
+}
+
 
 /*
 ------------ Media Queries ------------------
